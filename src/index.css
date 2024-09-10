@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply bg-yellow-400 text-gray-950 border-2 border-yellow-400 px-4 py-2 rounded-lg font-semibold
+    }
+    .btn-outline {
+        @apply text-white border-2 border-yellow-400 px-4 py-2 rounded-lg font-semibold
+    }
+}
